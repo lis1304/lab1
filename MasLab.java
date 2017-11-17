@@ -1,7 +1,7 @@
 package lis_lab1;
 
 
-public class Mas_Lab {
+public class MasLab {
     public static void main(String[] args) {
 
 

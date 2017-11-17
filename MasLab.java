@@ -8,8 +8,8 @@ public class MasLab {
 
         /*-------------------------------------------------------*/
         int[] mas = new int[10];
-        double[] mas_do = new double[10];
-        int[] mas_sr = new int[10];
+        double[] masDo = new double[10];
+        int[] masSr = new int[10];
         /*
         for (int i = 0; i < mas.length-1; i++) {
             mas[i] = i;
@@ -23,18 +23,18 @@ public class MasLab {
             }
         }
 
-        double max_dou = mas_do[0];
-        for (double d : mas_do ) {
-            if (d > max_dou){
-                max_dou = d;
+        double maxDou = masDo[0];
+        for (double d : masDo ) {
+            if (d > maxDou){
+                maxDou = d;
             }
         }
         int sum = 0;
 
-        for (int sr: mas_sr) {
+        for (int sr: masSr) {
             sum += sr;
         }
-        double sr_zn = sum / mas_sr.length;
+        double sr_zn = sum / masSr.length;
 
     }
 }
